@@ -29,9 +29,10 @@ body{
     font-weight: bold;
     padding-top: 15px;
 }
-h2{
+#menu{
     color: white;
     float: right;
+    padding-right: 35px;
 }
 #projeto{
     margin-right: 75px;
@@ -40,8 +41,8 @@ h2{
 section{
     height: 25px;
     margin: 0;
-    position: relative;
-    top: 58px;
+    position: fixed;
+    top: 220px;
     width: 15px;
 }
 img{
@@ -52,7 +53,27 @@ img{
 a{
     width: 15px;
     height: 15px;
-    background-color: aqua;  
     padding-bottom: 0;
 }
-
+#esquerda{
+    position: relative;
+    top: 300px;
+    float: left;
+    width: 500px;
+    left: 50px;
+}
+#direita{
+    position: relative;
+    top: 232.5px;
+    float: right;
+    width: 500px;
+    right: 50px;
+}
+#meio-da-pagina{
+    position: relative;
+    color: white;
+    top:274px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
