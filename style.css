@@ -33,21 +33,26 @@ h2{
     color: white;
     float: right;
 }
+#projeto{
+    margin-right: 75px;
+}
+
 section{
     height: 25px;
     margin: 0;
     position: relative;
     top: 58px;
+    width: 15px;
 }
 img{
     position: relative;
-    padding-bottom: 15px;
     display: block;
     height: 100%;
 }
-#projeto{
-    margin-right: 75px;
+a{
+    width: 15px;
+    height: 15px;
+    background-color: aqua;  
+    padding-bottom: 0;
 }
-#redes{
-    margin-right: 35px;
-}
+
