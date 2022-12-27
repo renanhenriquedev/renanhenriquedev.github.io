@@ -8,22 +8,42 @@ header{
 body{
     background-color: #0d0d0d;
 }
-p{
+#introducao{
     position: relative;
     color: white;
     top: 200px;
-    left: 75px;
+    left: 85px;
     font-family: 'Times New Roman';
-    font-size: 35px;
+    font-size: 40px;
     margin: auto;
     font-weight: bold;
+}
+#competencias{
+    position: relative;
+    color: white;
+    top: 230px;
+    left: 85px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    padding-top: 15px;
 }
 h2{
     color: white;
     float: right;
 }
+section{
+    height: 25px;
+    margin: 0;
+    position: relative;
+    top: 58px;
+}
 img{
-    height: 15px;
+    position: relative;
+    padding-bottom: 15px;
+    display: block;
+    height: 100%;
 }
 #projeto{
     margin-right: 75px;
