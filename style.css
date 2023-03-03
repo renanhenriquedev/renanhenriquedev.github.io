@@ -89,7 +89,7 @@ section{
     top: 450px;
     height: 800%;
     left: 200px;
-    border: 1px solid white;
+    border: 2px solid white;
 
 }
 
@@ -98,5 +98,13 @@ section{
     top: 246px;
     height: 800%;
     left: 1500px;
-    border: 1px solid white;
+    border: 2px solid white;
+}
+
+#project-03 {
+    position: relative;
+    top: 46px;
+    height: 800%;
+    left: 842px;
+    border: 2px solid white;
 }
