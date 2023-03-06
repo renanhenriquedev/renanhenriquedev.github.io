@@ -1,0 +1,38 @@
+header {
+    background-color: #4e42d4;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #140f0d;
+}
+
+header h2 {
+    float: right;
+    padding-right: 35px;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    height: 2.5rem;
+    color: white;
+  }
