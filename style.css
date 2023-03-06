@@ -1,4 +1,9 @@
 @media (min-width :0px) {
+    body {
+        background-color: black;
+        width: 100%;
+    }
+
     header {
         background-color: #4e42d4;
         position: absolute;
@@ -6,12 +11,7 @@
         left: 0;
         top: 0;
     }
-    
-    body {
-        background-color: black;
-        width: 100%;
-    }
-    
+
     #introducao {
         position: relative;
         color: white;
@@ -21,7 +21,7 @@
         margin: auto;
         font-weight: bold;
     }
-    
+
     #competencias {
         position: relative;
         color: white;
@@ -32,7 +32,7 @@
         font-weight: bold;
         padding-top: 15px;
     }
-    
+
     #curriculo {
         position: relative;
         color: white;
@@ -44,7 +44,7 @@
         font-weight: bold;
         padding-top: 15px;
     }
-    
+
     #curriculos {
         position: relative;
         color: white;
@@ -56,23 +56,23 @@
         font-weight: bold;
         padding-top: 15px;
     }
-    
+
     header h2 {
         color: white;
         float: right;
         padding-right: 35px;
     }
-    
+
     header a {
         color: white;
         text-decoration: none;
     }
-    
-    
+
+
     #projeto {
         margin-right: 75px;
     }
-    
+
     section {
         height: 25px;
         margin: 0;
@@ -80,18 +80,18 @@
         top: 220px;
         width: 15px;
     }
-    
+
     .button:hover {
         cursor: pointer;
         color: #ffffff;
         background-color: black;
         border-radius: 10%;
     }
-    
+
     #icons {
         margin-right: 15px;
     }
-    
+
     #redes {
         position: relative;
         display: block;
@@ -99,7 +99,7 @@
         margin-top: 15px;
         padding-left: 15px;
     }
-    
+
     img {
         position: relative;
         border-radius: 50%;
@@ -108,8 +108,8 @@
         margin-right: 10%;
         bottom: 120px;
     }
-    
-    
+
+
     footer {
         margin-top: 5%;
         align-items: center;
@@ -118,132 +118,132 @@
         top: 350px;
         height: 2.5rem;
         color: white;
-      }
+    }
 }
 
 @media (min-width: 1920px) {
-    
 
 
-header {
-    background-color: #4e42d4;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-}
 
-body {
-    background-color: #140f0d;
-    width: 100%;
-}
+    header {
+        background-color: #4e42d4;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
 
-#introducao {
-    position: relative;
-    color: white;
-    top: 200px;
-    left: 85px;
-    font-family: 'Times New Roman';
-    font-size: 40px;
-    margin: auto;
-    font-weight: bold;
-}
+    body {
+        background-color: #140f0d;
+        width: 100%;
+    }
 
-#competencias {
-    position: relative;
-    color: white;
-    top: 230px;
-    left: 85px;
-    font-family: 'Times New Roman';
-    font-size: 20px;
-    margin: auto;
-    font-weight: bold;
-    padding-top: 15px;
-}
+    #introducao {
+        position: relative;
+        color: white;
+        top: 200px;
+        left: 85px;
+        font-family: 'Times New Roman';
+        font-size: 40px;
+        margin: auto;
+        font-weight: bold;
+    }
 
-#curriculo {
-    position: relative;
-    color: white;
-    top: 350px;
-    left: 85px;
-    font-family: 'Times New Roman';
-    font-size: 20px;
-    margin: auto;
-    font-weight: bold;
-    padding-top: 15px;
-}
+    #competencias {
+        position: relative;
+        color: white;
+        top: 230px;
+        left: 85px;
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        margin: auto;
+        font-weight: bold;
+        padding-top: 15px;
+    }
 
-#curriculos {
-    position: relative;
-    color: white;
-    top: 350px;
-    left: 187px;
-    font-family: 'Times New Roman';
-    font-size: 20px;
-    margin: auto;
-    font-weight: bold;
-    padding-top: 15px;
-}
+    #curriculo {
+        position: relative;
+        color: white;
+        top: 350px;
+        left: 85px;
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        margin: auto;
+        font-weight: bold;
+        padding-top: 15px;
+    }
 
-header h2 {
-    color: white;
-    float: right;
-    padding-right: 35px;
-}
+    #curriculos {
+        position: relative;
+        color: white;
+        top: 350px;
+        left: 187px;
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        margin: auto;
+        font-weight: bold;
+        padding-top: 15px;
+    }
 
-header a {
-    color: white;
-    text-decoration: none;
-}
+    header h2 {
+        color: white;
+        float: right;
+        padding-right: 35px;
+    }
 
-
-#projeto {
-    margin-right: 75px;
-}
-
-section {
-    height: 25px;
-    margin: 0;
-    position: fixed;
-    top: 220px;
-    width: 15px;
-}
-
-.button:hover {
-    cursor: pointer;
-    color: #ffffff;
-    background-color: black;
-    border-radius: 10%;
-}
-
-#icons {
-    margin-right: 15px;
-}
-
-#redes {
-    position: relative;
-    display: block;
-    height: 100%;
-    margin-top: 15px;
-    padding-left: 15px;
-}
-
-img {
-    border-radius: 50%;
-    width: 15%;
-    float: right;
-    margin-right: 10%;
-    bottom: 25%;
-}
+    header a {
+        color: white;
+        text-decoration: none;
+    }
 
 
-footer {
-    margin-top: 5%;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    top: 350px;
-    height: 2.5rem;
-    color: white;
-  }
+    #projeto {
+        margin-right: 75px;
+    }
+
+    section {
+        height: 25px;
+        margin: 0;
+        position: fixed;
+        top: 220px;
+        width: 15px;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        color: #ffffff;
+        background-color: black;
+        border-radius: 10%;
+    }
+
+    #icons {
+        margin-right: 15px;
+    }
+
+    #redes {
+        position: relative;
+        display: block;
+        height: 100%;
+        margin-top: 15px;
+        padding-left: 15px;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 15%;
+        float: right;
+        margin-right: 10%;
+        bottom: 25%;
+    }
+
+
+    footer {
+        margin-top: 5%;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 350px;
+        height: 2.5rem;
+        color: white;
+    }
 }
