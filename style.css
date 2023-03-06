@@ -12,7 +12,7 @@
         left: 0;
         top: 0;
         display: block;
-
+        z-index: 9999;
     }
 
     #introducao {
@@ -63,10 +63,9 @@
 
     header h2 {
         color: white;
-        float: right;
         display: block;
         float: left;
-        padding-right: 15px;
+        padding-right: 10px;
     }
 
     header a {
