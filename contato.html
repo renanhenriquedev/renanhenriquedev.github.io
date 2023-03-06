@@ -11,16 +11,38 @@
 <body>
     <main>
         <header>
-            <h2><a href="./contato.html">Contato</a></h2>
-            <h2><a href="./projetos.html">Projetos</a></h2>
-            <h2><a href="./index.html">Sobre Mim</a> </h2>
+            <h2><a class="button" href="./contato.html">Contato</a></h2>
+            <h2><a class='button'href="./projetos.html">Projetos</a></h2>
+            <h2><a class="button" href="./index.html">Sobre Mim</a> </h2>
         </header>
 
 
         <main>
             <div>
                 <form action="">
-                    <fieldset>a</fieldset>
+
+                    <fieldset>
+                        <label for="input-name">Nome</label>
+                        <input type="text" name="input-name" id="input-name">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="input-email">Email</label>
+                        <input type="email" name="input-email" id="input-email">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="input-tel">Telefone</label>
+                        <input type="tel" name="input-tel" id="input-tel">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="input-msg">Mensagem</label>
+                        <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
+                    </fieldset>
+
+                    <input class ='buttons'type="submit" value="Enviar">
+
                 </form>
             </div>
         </main>

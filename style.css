@@ -82,6 +82,13 @@ section {
     width: 15px;
 }
 
+.button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 10%;
+}
+
 #icons {
     margin-right: 15px;
 }

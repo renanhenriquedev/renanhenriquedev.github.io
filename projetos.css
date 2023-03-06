@@ -46,6 +46,13 @@ div {
     display: inline-block;
 }
 
+.button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 10%;
+}
+
 #pixel{
     display: inline-block;
     border: 2px solid white;
