@@ -249,13 +249,13 @@
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1020px) {
 
 
 
     header {
         background-color: #4e42d4;
-        position: absolute;
+        position: fixed;
         width: 100%;
         left: 0;
         top: 0;
@@ -361,7 +361,6 @@
         width: 15%;
         float: right;
         margin-right: 10%;
-        bottom: 25%;
     }
 
 
