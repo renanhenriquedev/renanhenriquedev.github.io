@@ -1,189 +1,148 @@
-@media (min-width: 0px) {
+@media (max-width : 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
+    body {
+        background-color: #563C59;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
     header {
-        background-color: #4e42d4;
-        position: fixed;
+        background-color: #8851A3;
+        display: block;
         width: 100%;
         left: 0;
         top: 0;
-        z-index: 9999;
-    }
-
-    html,
-    body {
-        scroll-behavior: smooth;
-    }
-
-    body {
-        background-color: black;
-    }
-
-    header h2 {
-        float: right;
-        padding-right: 35px;
+        height: auto;
     }
 
 
-    header a {
-        color: white;
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+
+    li {
+        margin: 15px;
+        font-size: 120%;
+    }
+
+    a {
         text-decoration: none;
+        color: whitesmoke;
+        cursor: pointer;
     }
-
 
     main {
-        margin-top: 68px;
-        position: relative;
         width: 100%;
         height: 100%;
-        /* background-color: aqua; */
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #contato {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    fieldset {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    input,
+    textarea {
         text-align: center;
     }
 
-    div {
-        align-items: center;
+
+    #git {
+        color: whitesmoke;
+        background-color: #AE63E3;
+        border: none;
+        margin-top: 20px;
     }
 
     form {
-        width: 500px;
-        height: 80%;
-        margin: 100px auto;
-        background-color: #4e42d4;
-
-        border-radius: 15px;
-    }
-
-    form fieldset {
-        color: aliceblue;
-        border: 0;
-    }
-
-    form fieldset input,
-    textarea {
-        width: 100%;
-    }
-
-    .buttons {
-        border: 0;
-        color: black;
-    }
-
-    .buttons:hover {
-        cursor: pointer;
-        color: green;
-    }
-
-    .button:hover {
-        cursor: pointer;
-        color: #ffffff;
-        background-color: black;
-        border-radius: 10%;
-    }
-
-    footer {
-        left: 35%;
-        position: absolute;
-        top: 250%;
-        height: 2.5rem;
-        color: white;
-    }
-
-
-}
-
-
-@media (min-width: 1920px) {
-
-    header {
-        background-color: #4e42d4;
-        position: fixed;
-        width: 100%;
-        left: 0;
-        z-index: 9999;
-        top: 0;
-    }
-
-    html,
-    body {
-        scroll-behavior: smooth;
-    }
-
-    body {
-        background-color: black;
-    }
-
-    header h2 {
-        float: right;
-        padding-right: 35px;
-    }
-
-
-    header a {
-        color: white;
-        text-decoration: none;
-    }
-
-
-    main {
-        margin-top: 68px;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        /* background-color: aqua; */
-        display: inline-block;
         text-align: center;
     }
 
-    div {
-        align-items: center;
+    #git:hover {
+        background-color: #8851a385;
     }
 
-    form {
-        width: 400px;
-        margin: 100px auto;
-        background-color: #4e42d4;
-        ;
+
+    .button-28 {
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #1A1A1A;
         border-radius: 15px;
+        box-sizing: border-box;
+        color: #3B3B3B;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 16px;
+        line-height: normal;
+        margin: 0;
+        min-height: 30px;
+        min-width: 0;
+        outline: none;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        will-change: transform;
     }
 
-    form fieldset {
-        color: aliceblue;
-        border: 0;
+    .button-28:disabled {
+        pointer-events: none;
     }
 
-    form fieldset input,
-    textarea {
+    .button-28:hover {
+        color: #fff;
+        background-color: #1A1A1A;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+    }
+
+    .button-28:active {
+        box-shadow: none;
+        transform: translateY(0);
+    }
+
+
+    #maps {
+        display: flex;
         width: 100%;
+        margin-top: 100px;
+        justify-content: center;
+        opacity: 0.9;
+        padding: 15px;
     }
-
-    .buttons {
-        border: 0;
-        color: black;
-    }
-
-    .buttons:hover {
-        cursor: pointer;
-        color: green;
-    }
-
-    .button:hover {
-        cursor: pointer;
-        color: #ffffff;
-        background-color: black;
-        border-radius: 10%;
-    }
-
 
     footer {
         margin-top: 5%;
+        align-items: center;
         text-align: center;
         position: relative;
-        bottom: 0;
-        transform: translateX(-50%);
-        left: 50%;
+        top: 350px;
         height: 2.5rem;
         color: white;
     }
-
 }

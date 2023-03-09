@@ -1,121 +1,116 @@
-@media (min-width :0px) {
+@media (max-width : 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     body {
-        background-color: black;
-        width: 100%;
-        
+        background-color: #563C59;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: var(--bs-body-font-family);
     }
 
     header {
-        background-color: #4e42d4;
-        position: fixed;
+        background-color: #8851A3;
+        display: block;
         width: 100%;
         left: 0;
         top: 0;
-        display: block;
-        font-size: small;
-        z-index: 9999;
+        height: auto;
+    }
+    
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+    
+    li {
+        margin: 15px;
+        font-size: 120%;
     }
 
-    #introducao {
-        position: relative;
-        color: white;
-        top: 200px;
-        font-family: 'Times New Roman';
-        font-size: medium;
-        margin: auto;
-        font-weight: bold;
-    }
-
-    #competencias {
-        position: relative;
-        color: white;
-        top: 230px;
-        font-family: 'Times New Roman';
-        font-size: small;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    #curriculo {
-        position: relative;
-        color: white;
-        top: 350px;
-        /* left: 85px; */
-        font-family: 'Times New Roman';
-        font-size: medium;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    #curriculos {
-        position: relative;
-        color: white;
-        top: 350px;
-        /* left: 27px; */
-        font-family: 'Times New Roman';
-        font-size: small;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-        
-    }
-
-    header h2 {
-        color: white;
-        display: block;
-        float: left;
-        padding-right: 10px;
-    }
-
-    header a {
-        color: white;
+    a {
         text-decoration: none;
-    }
-
-
-    #projeto {
-        margin-right: 75px;
-    }
-
-    section {
-        height: 25px;
-        margin: 0;
-        position: fixed;
-        top: 220px;
-        width: 15px;
-    }
-
-    .button:hover {
+        color: whitesmoke;
         cursor: pointer;
-        color: #ffffff;
-        background-color: black;
-        border-radius: 10%;
     }
-
-    #icons {
-        margin-right: 15px;
-    }
-
-    #redes {
-        position: relative;
-        display: block;
+    
+    main {
+        width: 100%;
         height: 100%;
-        margin-top: 15px;
-        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
     }
 
+
+    #container {
+        margin-top: 50px;
+        width: 100%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+    }
+
+    
     img {
-        margin-top: 25px;
-        position: relative;
+        width: 50%;
         border-radius: 50%;
-        width: 25%;
-        float: right;
-        margin-right: 20%;
-        bottom: 100px;
     }
 
+    aside {
+        color: white;
+        margin-top: 20px;
+        font-size: medium;
+        padding: 5px;
+    }
+    
+    #content {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    p {
+        margin-top: 20px;
+        color: whitesmoke;
+        padding: 5px;
+    }
+
+    #tecnologia {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    .icon{
+        margin-top: 20px;
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #ferramentas {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
 
     footer {
         margin-top: 5%;
@@ -127,239 +122,3 @@
         color: white;
     } 
 }
-
-@media (min-width :388px) {
-    body {
-        background-color: black;
-        width: 100%;
-    }
-
-    header {
-        background-color: #4e42d4;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 0;
-    }
-
-    #introducao {
-        position: relative;
-        color: white;
-        top: 200px;
-        font-family: 'Times New Roman';
-        font-size: medium;
-        margin: auto;
-        font-weight: bold;
-    }
-
-    #competencias {
-        position: relative;
-        color: white;
-        top: 230px;
-        font-family: 'Times New Roman';
-        font-size: small;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    #curriculo {
-        position: relative;
-        color: white;
-        top: 350px;
-        /* left: 85px; */
-        font-family: 'Times New Roman';
-        font-size: medium;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    #curriculos {
-        position: relative;
-        color: white;
-        top: 350px;
-        /* left: 27px; */
-        font-family: 'Times New Roman';
-        font-size: small;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    header h2 {
-        color: white;
-        float: right;
-        padding-right: 35px;
-    }
-
-    header a {
-        color: white;
-        text-decoration: none;
-    }
-
-
-    #projeto {
-        margin-right: 75px;
-    }
-
-    section {
-        height: 25px;
-        margin: 0;
-        position: fixed;
-        top: 220px;
-        width: 15px;
-    }
-
-    .button:hover {
-        cursor: pointer;
-        color: #ffffff;
-        background-color: black;
-        border-radius: 10%;
-    }
-
-    #icons {
-        margin-right: 15px;
-    }
-
-    #redes {
-        position: relative;
-        display: block;
-        height: 100%;
-        margin-top: 15px;
-        padding-left: 15px;
-    }
-
-    img {
-        position: relative;
-        border-radius: 50%;
-        width: 25%;
-        float: right;
-        margin-right: 10%;
-        bottom: 70px;
-    }
-
-
-    footer {
-        margin-top: 5%;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        top: 350px;
-        height: 2.5rem;
-        color: white;
-    }
-}
-
-@media (min-width: 1020px) {
-
-    header {
-        position: absolute;
-      }
-    
-      header h2 {
-        float: right;
-        padding-right: 35px;
-      }
-    
-      #curriculos {
-        font-size: 15px;
-        left: 85px;
-      }
-    
-      img {
-        margin-right: 10%;
-        bottom: 70px;
-        width: 15%;
-      }
-
-    body {
-        background-color: #140f0d;
-        width: 100%;
-    }
-
-    #introducao {
-        position: relative;
-        color: white;
-        top: 200px;
-        left: 85px;
-        font-family: 'Times New Roman';
-        font-size: 40px;
-        margin: auto;
-        font-weight: bold;
-    }
-
-    #competencias {
-        position: relative;
-        color: white;
-        top: 230px;
-        left: 85px;
-        font-family: 'Times New Roman';
-        font-size: 20px;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    #curriculo {
-        position: relative;
-        color: white;
-        top: 350px;
-        left: 85px;
-        font-family: 'Times New Roman';
-        font-size: 20px;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    header a {
-        color: white;
-        text-decoration: none;
-    }
-
-
-    #projeto {
-        margin-right: 75px;
-    }
-
-    section {
-        height: 25px;
-        margin: 0;
-        position: fixed;
-        top: 220px;
-        width: 15px;
-    }
-
-    .button:hover {
-        cursor: pointer;
-        color: #ffffff;
-        background-color: black;
-        border-radius: 10%;
-    }
-
-    #icons {
-        margin-right: 15px;
-    }
-
-    #redes {
-        position: relative;
-        display: block;
-        height: 100%;
-        margin-top: 15px;
-        padding-left: 15px;
-    }
-
-    footer {
-        margin-top: 5%;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        top: 350px;
-        height: 2.5rem;
-        color: white;
-      }
-
-}
-
-
