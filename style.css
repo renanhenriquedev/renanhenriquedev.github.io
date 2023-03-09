@@ -1,4 +1,4 @@
-@media (min-width :0px) {
+@media (max-width : 480px) {
     * {
         margin: 0;
         padding: 0;
@@ -19,6 +19,7 @@
         top: 0;
         height: auto;
     }
+    
 
     ul {
         display: flex;
@@ -26,112 +27,49 @@
         list-style: none;
         justify-content: center;
     }
-
+    
     li {
+        color: whitesmoke;
         margin: 15px;
+        font-size: 120%;
     }
 
-    #introducao {
-        position: relative;
-        color: white;
-        top: 200px;
-        font-family: 'Times New Roman';
-        font-size: medium;
-        margin: auto;
-        font-weight: bold;
-    }
-
-    #competencias {
-        position: relative;
-        color: white;
-        top: 230px;
-        font-family: 'Times New Roman';
-        font-size: small;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    #curriculo {
-        position: relative;
-        color: white;
-        top: 350px;
-        /* left: 85px; */
-        font-family: 'Times New Roman';
-        font-size: medium;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-    }
-
-    #curriculos {
-        position: relative;
-        color: white;
-        top: 350px;
-        /* left: 27px; */
-        font-family: 'Times New Roman';
-        font-size: small;
-        margin: auto;
-        font-weight: bold;
-        padding-top: 15px;
-        
-    }
-
-    header h2 {
-        color: white;
-        display: block;
-        float: left;
-        padding-right: 10px;
-    }
-
-    header a {
-        color: white;
-        text-decoration: none;
-    }
-
-
-    #projeto {
-        margin-right: 75px;
-    }
-
-    section {
-        height: 25px;
-        margin: 0;
-        position: fixed;
-        top: 220px;
-        width: 15px;
-    }
-
-    .button:hover {
-        cursor: pointer;
-        color: #ffffff;
-        background-color: black;
-        border-radius: 10%;
-    }
-
-    #icons {
-        margin-right: 15px;
-    }
-
-    #redes {
-        position: relative;
-        display: block;
+    main {
+        width: 100%;
         height: 100%;
-        margin-top: 15px;
-        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #container {
+        margin-top: 50px;
+        width: 100%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+    }
+
+    aside {
+        color: white;
+        margin-top: 20px;
+        font-size: medium;
     }
 
     img {
-        margin-top: 25px;
-        position: relative;
+        width: 50%;
         border-radius: 50%;
-        width: 25%;
-        float: right;
-        margin-right: 20%;
-        bottom: 100px;
     }
+    
 
-
+    #container {
+        color: whitesmoke;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+    }
     footer {
         margin-top: 5%;
         align-items: center;
