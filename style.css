@@ -50,26 +50,35 @@
         align-items: center;
     }
 
+    
+    img {
+        width: 50%;
+        border-radius: 50%;
+    }
+
     aside {
         color: white;
         margin-top: 20px;
         font-size: medium;
     }
-
-    img {
-        width: 50%;
-        border-radius: 50%;
+    
+    #content {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
     }
+
+    p {
+        margin-top: 20px;
+        color: whitesmoke;
+    }
+
     
 
-    #container {
-        color: whitesmoke;
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: left;
-        flex-direction: column;
-    }
     footer {
         margin-top: 5%;
         align-items: center;
