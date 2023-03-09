@@ -2,33 +2,84 @@
 <html lang="pt-br">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Portifólio</title>
-    <link href="projetos.css" rel="stylesheet">
+    <link href="./projetos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./imagens/icon.png">
 </head>
 
 <body>
 
     <header>
-        <h2><a class="button" href="./contato.html">Contato</a></h2>
-        <h2><a class='button' href="./projetos.html">Projetos</a></h2>
-        <h2><a class="button" href="./index.html">Sobre Mim</a> </h2>
+        <ul>
+            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./projetos.html">Projects</a></li>
+            <li><a href="./contato.html">Contact</a></li>
+        </ul>
     </header>
 
     <main>
-        <div>
+        <div id="container">
 
-            <a href="https://pixelart-project.surge.sh/">
-                <img id='pixel' src="./imagens/pixel-art.png">
-            </a>
+            <img id='pixel' src="./imagens/pixel-art.png">
 
-            <img id='nlw' src="./imagens/Captura de tela de 2023-03-01 14-05-39.png">
+            <aside>Projeto com funcionalidades de HTML, CSS e Javascript com o objetivo de simular uma plataforma de
+                pixel art para fazer os seus desenhos.</aside>
 
-            <a href="https://list-project.surge.sh/">
-                <img id='list' src="./imagens/list.png">
-            </a>
+            <div id="funcionality">
+                <a href="https://github.com/renanhenriquedev/Pixel-Art">
+                    <button type="button" id='git' class="button-28">Github</button>
+                </a>
+
+                <a href="https://pixelart-project.surge.sh/">
+                    <button type="button" id='git' class="button-28">Deploy</button>
+                </a>
+            </div>
+
         </div>
+
+        <div id="container">
+
+            <img id='pixel' src="./imagens/list.png" width="10px">
+
+            <aside>Projeto com funcionalidades de HTML, CSS e Javascript com o objetivo de simular uma plataforma de
+                lista de tarefas para o dia a dia.</aside>
+
+            <div id="funcionality">
+
+                <a href="https://github.com/renanhenriquedev/to-do-list">
+                    <button type="button" id='git' class="button-28">Github</button>
+                </a>
+
+                <a href="https://list-project.surge.sh/">
+                    <button type="button" id='git' class="button-28">Deploy</button>
+                </a>
+
+            </div>
+        </div>
+
+        <div id="container">
+
+            <img id='pixel' src="./imagens/burguer.png" width="10px">
+
+            <aside>Projeto com funcionalidades de HTML e CSS com o objeito de simular um site de uma hamburgueria local.
+            </aside>
+
+            <div id="funcionality">
+
+                <a href="https://github.com/renanhenriquedev/hamburger-shop">
+                    <button type="button" id='git' class="button-28">Github</button>
+                </a>
+
+                <a href="https://burguer-project.surge.sh/">
+                    <button type="button" id='git' class="button-28">Deploy</button>
+                </a>
+
+            </div>
+        </div>
+
+
     </main>
 
     <footer>2023 Ⓒ Desenvolvido por Renan Henrique
