@@ -5,14 +5,14 @@
         box-sizing: border-box;
     }
     body {
-        background-color: #272749;
+        background-color: #563C59;
         height: 100vh;
         display: flex;
         flex-direction: column;
     }
 
     header {
-        background-color: #4e42d4;
+        background-color: #8851A3;
         display: block;
         width: 100%;
         left: 0;
@@ -60,6 +60,7 @@
         color: white;
         margin-top: 20px;
         font-size: medium;
+        padding: 5px;
     }
     
     #content {
@@ -75,9 +76,35 @@
     p {
         margin-top: 20px;
         color: whitesmoke;
+        padding: 5px;
     }
 
-    
+    #tecnologia {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    .icon{
+        margin-top: 20px;
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #ferramentas {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
 
     footer {
         margin-top: 5%;
