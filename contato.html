@@ -2,50 +2,58 @@
 <html lang="pt-br">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Portifólio</title>
     <link rel="shortcut icon" href="./imagens/icon.png">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="./contato.css" rel="stylesheet">
 </head>
 
 <body>
+
+    <header>
+        <ul>
+            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./projetos.html">Projects</a></li>
+            <li><a href="./contato.html">Contact</a></li>
+        </ul>
+    </header>
+
     <main>
-        <header>
-            <h2><a class="button" href="./contato.html">Contato</a></h2>
-            <h2><a class='button' href="./projetos.html">Projetos</a></h2>
-            <h2><a class="button" href="./index.html">Sobre Mim</a> </h2>
-        </header>
 
-        
-        <main>
-            <div>
-                <form action="">
+        <div id="contato">
+            <form action="">
 
-                    <fieldset>
-                        <label for="input-name">Nome</label>
-                        <input type="text" name="input-name" id="input-name">
-                    </fieldset>
+                <fieldset>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Nome">
+                </fieldset>
 
-                    <fieldset>
-                        <label for="input-email">Email</label>
-                        <input type="email" name="input-email" id="input-email">
-                    </fieldset>
+                <fieldset>
+                    <input type="email" class="form-control teste" id="floatingInput" placeholder="Email">
+                </fieldset>
 
-                    <fieldset>
-                        <label for="input-tel">Telefone</label>
-                        <input type="tel" name="input-tel" id="input-tel">
-                    </fieldset>
+                <fieldset>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Telefone">
+                </fieldset>
 
-                    <fieldset>
-                        <label for="input-msg">Mensagem</label>
-                        <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
-                    </fieldset>
+                <fieldset>
+                    <textarea class="form-control" placeholder="Mensagem" id="floatingTextarea2" style="height: 100px"></textarea>
+                </fieldset>
 
-                    <input class='buttons' type="submit" value="Enviar">
+                <button type="button" id='git' class="button-28">Deploy</button>
 
-                </form>
-            </div>
-        </main>
+
+            </form>
+        </div>
+
+        <div id="maps"> <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.078017646574!2d-35.95426968521853!3d-8.295034894032074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98a56da17a4b1%3A0x88b2099670852257!2sCaruaru%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1678310834611!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    </main>
 
 
 </body>
