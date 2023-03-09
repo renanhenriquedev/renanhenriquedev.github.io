@@ -1,3 +1,4 @@
+/* 480, 481-768 tablet, 769- 1024 */
 @media (max-width : 480px) {
     * {
         margin: 0;
@@ -39,7 +40,7 @@
         color: whitesmoke;
         cursor: pointer;
     }
-    
+
     main {
         width: 100%;
         height: 100%;
@@ -113,12 +114,257 @@
     }
 
     footer {
-        margin-top: 5%;
-        align-items: center;
-        text-align: center;
-        position: relative;
-        top: 350px;
-        height: 2.5rem;
+        margin-top: 3%;
         color: white;
-    } 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width : 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: #563C59;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: var(--bs-body-font-family);
+    }
+
+    header {
+        background-color: #8851A3;
+        display: block;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: auto;
+    }
+    
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+    
+    li {
+        margin: 15px;
+        font-size: 120%;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #container {
+        margin-top: 50px;
+        width: 100%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+    }
+
+    
+    img {
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    aside {
+        color: white;
+        margin-top: 20px;
+        font-size: medium;
+        padding: 5px;
+    }
+    
+    #content {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    p {
+        margin-top: 20px;
+        color: whitesmoke;
+        padding: 5px;
+    }
+
+    #tecnologia {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    .icon{
+        margin-top: 20px;
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #ferramentas {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    footer {
+        margin-top: 3%;
+        color: white;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width : 769px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: #563C59;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        font-family: var(--bs-body-font-family);
+    }
+
+    header {
+        background-color: #8851A3;
+        display: block;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: auto;
+    }
+    
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+    }
+    
+    li {
+        margin: 15px;
+        font-size: 120%;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #container {
+        margin-top: 50px;
+        width: 100%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+    }
+
+    
+    img {
+        width: 30%;
+        border-radius: 50%;
+    }
+
+    aside {
+        color: white;
+        margin-top: 20px;
+        font-size: large;
+        padding: 5px;
+    }
+    
+    #content {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    p {
+        margin-top: 20px;
+        color: whitesmoke;
+        padding: 5px;
+        font-size: large;
+    }
+
+    #tecnologia {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    .icon{
+        margin-top: 20px;
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #ferramentas {
+        margin-top: 50px;
+        width: 90%;
+        display: inline;
+        text-align: center;
+        align-items: center;
+        border: 1px solid whitesmoke;
+        margin-left: 5.5%;
+    }
+
+    footer {
+        margin-top: 3%;
+        color: white;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
