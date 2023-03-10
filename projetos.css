@@ -42,6 +42,12 @@
         cursor: pointer;
     }
 
+        
+    a:hover {
+        color: #F2A0E5;
+    }
+
+
     main {
         width: 100%;
         height: 100%;
@@ -351,6 +357,12 @@
         margin-left: 5.5%;
     }
 
+        
+    a:hover {
+        color: #F2A0E5;
+    }
+
+
     footer {
         margin-top: 5%;
         color: white;
@@ -403,6 +415,12 @@
         color: whitesmoke;
         cursor: pointer;
     }
+
+        
+    a:hover {
+        color: #F2A0E5;
+    }
+
 
     main {
         width: 100%;

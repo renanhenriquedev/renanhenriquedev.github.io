@@ -136,6 +136,12 @@
         padding: 15px;
     }
 
+        
+    a:hover {
+        color: #F2A0E5;
+    }
+
+
     footer {
         margin-top: 5%;
         align-items: center;
@@ -190,6 +196,12 @@
         color: whitesmoke;
         cursor: pointer;
     }
+
+        
+    a:hover {
+        color: #F2A0E5;
+    }
+
 
     main {
         width: 100%;
@@ -340,6 +352,12 @@
         color: whitesmoke;
         cursor: pointer;
     }
+
+        
+    a:hover {
+        color: #F2A0E5;
+    }
+
 
     main {
         width: 100%;
