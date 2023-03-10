@@ -1,11 +1,13 @@
 
 const catchBtn = document.querySelector('button')
 
-const objUsuario = {
-    nome = document.getElementById
-}
-
 catchBtn.addEventListener('click', () => {
-    localStorage.setItem('Mensagem', )
+    const objUsuario = {
+        nome : document.getElementById('nome').value,
+        email : document.getElementById('email').value,
+        telefone : document.getElementById('telefone').value,
+        mensagem : document.getElementById('mensagem').value
+    }
+    localStorage.setItem('Mensagem', JSON.stringify(objUsuario) )
 })
 // localStorage.set('Mensagem')
