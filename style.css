@@ -113,6 +113,12 @@
         margin-left: 5.5%;
     }
 
+        
+    a:hover {
+        color: #F2A0E5;
+    }
+
+
     footer {
         margin-top: 3%;
         color: white;
@@ -236,6 +242,12 @@
         margin-left: 5.5%;
     }
 
+        
+    a:hover {
+        color: #F2A0E5;
+    }
+
+
     footer {
         margin-top: 3%;
         color: white;
@@ -358,6 +370,11 @@
         align-items: center;
         border: 1px solid whitesmoke;
         margin-left: 5.5%;
+    }
+
+      
+    a:hover {
+        color: #F2A0E5;
     }
 
     footer {
