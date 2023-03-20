@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Portifólio</title>
-    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAYAAADhu0ooAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3ElEQVR4nO2aXYhVVRTHt5GGD6UFGikU2FsgEdJTxISWDmpnrTN1oS8qDEclMmSQs9Yd5Igf0EMF+hD5EhkVURkoFFRQD1GBQdRL+ZJCvYjazF7rOJr2cWKfmTue+5VzmXs+Js8f1stlr3v276y91tlfxvRZDHo/g35DaNf26ksb7M2Eeox82W7KrJ3exDICOcOoMYFcIpSNM/c9eyOhfud8GeWfAPQRU1YR6quTHW2YnA1hfPFMfBnlUNqXUH7dUYsXmrLphcH4BgKNmkFdZHXX1XxH/GgpofzZ5lvGIRx44/e0djQxkB/qYNcRyF6Xfy5/3W+M8iWjvsV+9Dyhbu3kSyhfmLKJPX20I+gsjFBOm7KJ0K7tNyiDWlM2BSib+g6KesqUSYT2cQa5nAFoTKihKYPIt4ME8ncWkKnP1IuFQoYwvphBfssWMgH9gz29qzBQQj2YPeTUEAb9rBDIHbV4IaOO5QXqpoWjaO/MHZT96LH8IKcL02h/IVCeYpTPGfVjBnm/YQQaTLcBfSVvUAZ9t6nSJ31stgBl04xBXUnv8rCjKdC3C4jo16nn1zu3kf29RHRPlzz5KPUyDucOCvptf0FB9nUB/fAKqOzPP6LyQV9BR5Jlk13VZkN2xTSobwdzB00t29w33PWn1cKavcX0U2EYX+cWx/kNW7nENV1iihChjuY3bPWwKUphLV5AKD/mEM0zLp1MkQr883cTqmQGCnKZQNabMojQrmLQc5nkJeqQKZMCiFb2cxgnhQ6iNaaMCmvxAgbZ3Wk3sJcoEshr4eC5m0zZFdTGFjHICIH83EsE3U5h3T9/m5mL2ulNLGOwTzDKS4z6RrLlmSwW9E1CfdlNwgtZflWqdEVueAae+sbE88wsT+QI5fXh4Xi+KZs4ycNGcZHv3VEDPxzd2ksBI5Rn3DFEarKw25RJw8Px/I4TfJC/GPS4iw6jbnNHgYEfrQ4gesBFnlE3M+gBBvmKQC528L/Qy8vKXHVPns5wCrgvs46zbx9K78PUQZ79r/ZTn4xMQAn1RG4RIpC93dqGA/H1jKqZRRQ1DjaO3V446OjQ2B1ZQibP96IHCwcl396bOahvnywclFEHsgZl0C0V6GxUryLarmroYpWjcVWMsKq6W0x5q668N7l9MmkE+nuHeezJljafzLnvKLVM29zkvAPAp03/BfpcBZqF6lVE21UNXa/K0bgqRpBz1eWWS8aEOs6gvzSMUN/5f+TohonlyUXDbiv+1BXwOQ3q5G6JXROgprH7DvJTshHdDXRI75u6/NhqAy0Qx1vbEMiRpjbJ1bz2/7radutM9C+E4wJ7S6Ck3wAAAABJRU5ErkJggg==">
-    
-    
-  <link rel="stylesheet" href="/assets/contato-f6d3e18b.css">
+    <!-- <link rel="shortcut icon" href="./imagens/github.png">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="./contato.css" rel="stylesheet"> -->
+  <script type="module" crossorigin src="/assets/contato-6c00b1a0.js"></script>
+  <link rel="stylesheet" href="/assets/contato-f9e1158e.css">
 </head>
 
 <body>
@@ -25,21 +26,22 @@
 
         <div id="contato">
             <form action="">
-
+                
                 <fieldset>
-                    <input id='nome' class="form-control" id="floatingInput" placeholder="Nome">
+                    <input id='nome' type="text" name="input-nome" class="form-control" placeholder="Nome" required minlength="2">
                 </fieldset>
 
                 <fieldset>
-                    <input id="email" class="form-control teste" id="floatingInput" placeholder="Email">
+                    <input id="email" type="email"  name="input-email" class="form-control teste"  placeholder="Email" required>
                 </fieldset>
 
                 <fieldset>
-                    <input id="telefone" class="form-control" id="floatingInput" placeholder="Telefone">
+                    <input id="telefone" type="tel" name="input-tel" class="form-control" placeholder="(99) 99999-9999" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
                 </fieldset>
 
                 <fieldset>
-                    <textarea id='mensagem' class="form-control" placeholder="Mensagem" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <textarea id='mensagem' name="input-msg" class="form-control" placeholder="Mensagem" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
                 </fieldset>
 
                 <button type="button" id='git' class="button-28">Enviar</button>
@@ -49,17 +51,19 @@
         </div>
 
         <div id="maps"> <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.078017646574!2d-35.95426968521853!3d-8.295034894032074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98a56da17a4b1%3A0x88b2099670852257!2sCaruaru%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1678310834611!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.078017646574!2d-35.95426968521853!3d-8.295034894032074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98a56da17a4b1%3A0x88b2099670852257!2sCaruaru%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1678310834611!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer>2023 Ⓒ Desenvolvido por Renan Henrique
 
+        </footer>
     </main>
 
-    <script src="./script.js"></script>
-</body>
-<footer>2023 Ⓒ Desenvolvido por Renan Henrique
 
-</footer>
+
+    
+</body>
+
 
 </html>

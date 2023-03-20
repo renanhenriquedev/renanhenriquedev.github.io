@@ -84,6 +84,11 @@
     }
 
 
+    .invalid {
+        border: 2px solid red;
+    }
+
+
     .button-28 {
         appearance: none;
         background-color: transparent;
@@ -247,6 +252,11 @@
     }
 
 
+    .invalid {
+        border: 2px solid red;
+    }
+
+
     .button-28 {
         appearance: none;
         background-color: transparent;
@@ -400,6 +410,10 @@
         margin: 100px auto;
         background-color: #f5f5f5;
         border-radius: 15px;
+    }
+
+    .invalid {
+        border: 2px solid red;
     }
 
     #git:hover {

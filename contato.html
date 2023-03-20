@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Portifólio</title>
-    <link rel="shortcut icon" href="./imagens/github.png">
+    <!-- <link rel="shortcut icon" href="./imagens/github.png">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link href="./contato.css" rel="stylesheet">
+    <link href="./contato.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -24,21 +24,21 @@
 
         <div id="contato">
             <form action="">
-
+                
                 <fieldset>
-                    <input id='nome' class="form-control" id="floatingInput" placeholder="Nome">
+                    <input id='nome' type="text" name="input-nome" class="form-control" placeholder="Nome" required minlength="2">
                 </fieldset>
 
                 <fieldset>
-                    <input id="email" class="form-control teste" id="floatingInput" placeholder="Email">
+                    <input id="email" type="email"  name="input-email" class="form-control teste"  placeholder="Email" required>
                 </fieldset>
 
                 <fieldset>
-                    <input id="telefone" class="form-control" id="floatingInput" placeholder="Telefone">
+                    <input id="telefone" type="tel" name="input-tel" class="form-control" placeholder="(99) 99999-9999" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
                 </fieldset>
 
                 <fieldset>
-                    <textarea id='mensagem' class="form-control" placeholder="Mensagem" id="floatingTextarea2"
+                    <textarea id='mensagem' name="input-msg" class="form-control" placeholder="Mensagem" id="floatingTextarea2"
                         style="height: 100px"></textarea>
                 </fieldset>
 
@@ -60,7 +60,7 @@
 
 
 
-    <script src="./script.js"></script>
+    <script src="./script.js" type="module"></script>
 </body>
 
 
